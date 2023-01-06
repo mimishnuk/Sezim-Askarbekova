@@ -1,10 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends 'layouts/index.html' %}
+
+{% block content %}
+    <style type="text/css">
+
+        .categories {
+            display: flex;
+            justify-content: space-between;
+            width: 20%;
+        }
+
+    </style>
+    <div class="categories">
+        {% for  categori in categories %}
+            <div class="categori">
+                <h3>
+                    <a href="/products/?categori_id={{ categori.id }}">
+                        {{ categori.title }}
+                    </a>
+                </h3>
+            </div>
+
+        {% endfor %}
+    </div>
+{% endblock %}

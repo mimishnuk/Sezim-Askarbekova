@@ -6,12 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="2aa21712-ae20-4330-ba3b-65933a93a383" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/products/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/categories/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layouts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/products/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/products/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/products/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/products/detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/products/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/products/products.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
@@ -50,6 +56,11 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\djangoProject\djangoProject\shop\media" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="shop" type="Python.DjangoServer" factoryName="Django server">
       <module name="shop" />
@@ -57,6 +68,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="shop.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -89,7 +101,16 @@
       <workItem from="1671106054513" duration="142000" />
       <workItem from="1671106299981" duration="1828000" />
       <workItem from="1671112138588" duration="1124000" />
-      <workItem from="1671525337120" duration="10564000" />
+      <workItem from="1671525337120" duration="11120000" />
+      <workItem from="1672131725364" duration="7762000" />
+      <workItem from="1672141692684" duration="2194000" />
+      <workItem from="1672145556958" duration="212000" />
+      <workItem from="1672227934982" duration="8556000" />
+      <workItem from="1672293525769" duration="445000" />
+      <workItem from="1672392717880" duration="109000" />
+      <workItem from="1672398354525" duration="6265000" />
+      <workItem from="1672943710140" duration="4955000" />
+      <workItem from="1672996280572" duration="2979000" />
     </task>
     <servers />
   </component>
